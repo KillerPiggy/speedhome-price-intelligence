@@ -1,0 +1,11 @@
+# ── PriceLens · SPEEDHOME Property Price Intelligence ──────────────────
+# Dependencies are intentionally lean for frictionless deploy on
+# Streamlit Cloud / Render / Railway. HTML parsing uses the stdlib
+# html.parser, so lxml is optional (not required) to avoid build issues.
+
+streamlit>=1.33,<2
+requests>=2.31
+beautifulsoup4>=4.12
+pandas>=2.1
+openpyxl>=3.1          # Excel (.xlsx) export
+plotly>=5.20           # interactive charts (bonus features)
